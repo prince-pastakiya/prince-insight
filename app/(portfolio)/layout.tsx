@@ -25,10 +25,34 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "Prince Insight Portfolio",
-	description: "AI-Powered Portfolio Website",
+	title:
+		"Prince Pastakiya – Data Engineer | Data Analyst | AI-Powered Portfolio",
+	description:
+		"Prince Pastakiya's professional portfolio showcasing expertise in Data Engineering, Data Analytics, AI, and Web Development. Explore projects, skills, and achievements.",
+	keywords: [
+		"Prince Pastakiya",
+		"Prince",
+		"Pastakiya",
+		"Data Engineer",
+		"Data Analyst",
+		"AI Portfolio",
+		"Data Engineering",
+		"Data Analytics",
+		"Portfolio Website",
+		"Web Development",
+		"Machine Learning",
+	],
 	icons: {
 		icon: "/favicon.svg",
+		apple: "/apple-touch-icon.png", //For Apple devices
+	},
+	openGraph: {
+		title: "Prince Pastakiya – Data Engineer | Data Analyst | AI Portfolio",
+		description:
+			"Professional portfolio of Prince Pastakiya showcasing Data Engineering, Data Analytics, AI, and Web Development projects and skills.",
+		url: "https://prince-insight.vercel.app",
+		siteName: "Prince Insight Portfolio",
+		type: "website",
 	},
 };
 
