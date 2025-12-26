@@ -28,7 +28,17 @@ export const metadata: Metadata = {
 	title: "Prince Insight Portfolio",
 	description: "AI-Powered Portfolio Website",
 	icons: {
-		icon: "/icon.svg",
+		icon: [
+			{
+				url: "/icon-dark.svg",
+				media: "(prefers-color-scheme: light)",
+			},
+			{
+				url: "/icon-light.svg",
+				media: "(prefers-color-scheme: dark)",
+			},
+		],
+		apple: "/apple-touch-icon.png",
 	},
 };
 
